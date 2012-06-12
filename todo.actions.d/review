@@ -13,5 +13,5 @@ shift
 
 [ "$action" = "review" ] && {
      imapls.py zimbra.proceranetworks.com emil.erlandsson@proceranetworks.com
-     python ~/.todo.actions.d/review.py "$TODO_DIR"
+     python ${TODO_ACTIONS_DIR}/review.py "$TODO_DIR"
 }
